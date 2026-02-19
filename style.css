@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.aa {
+  min-height: 1000px;
+  width: 100%;
+  background-image: url(ressources/Images/image\ 7.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 30px;
+    padding: 20px 7%;
+}
+
+.logo {
+  color: #fff;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+.nav-links li {
+  list-style: none;
+  padding: 0px 30px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+}
+
+.container {
+  padding: 0px 35px;
+  position: absolute;
+  top: 82%;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #fff;
+  width: 70%;
+  height: 300px;
+  border-radius: 35px;
+  box-shadow:
+    rgba(0, 0, 0, 0.19) 0px 10px 20px,
+    rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.text{
+  border: 2px solid black;
+  height: 130px;
+  width: 100%;
+  padding: 10px 0;
+}
+
+.items{
+  border: 2px solid red;
+  height: 130px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 80px;
+}
+
+.ele{
+  height: 90px;
+  width: 20%;
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  gap: 30px;
+}
+
+.ele i{
+  font-size: 40px;
+}
+
+
+.main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 150px;
+}
+
+
+/* .container h4{
+  color: #3E8CBF;
+  font-size: 75px;
+  font-weight: 500;
+  padding: px 0;
+}
+
+.container p{
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.sreach-bar form{
+  border: 1px solid #848282;
+  width: 70%;
+  margin: 30px auto;.container h4{
+  color: #3E8CBF;
+  font-size: 75px;
+  font-weight: 500;
+  padding: px 0;
+}
+
+.container p{
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.sreach-bar form{
+  border: 1px solid #848282;
+  width: 70%;
+  margin: 30px auto;
+  padding: 6px 10px 6px 30px;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+  padding: 6px 10px 6px 30px;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+} */
