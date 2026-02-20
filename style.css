@@ -22,7 +22,7 @@ nav {
   align-items: center;
   justify-content: space-between;
   margin: 0 30px;
-    padding: 20px 7%;
+  padding: 20px 7%;
 }
 
 .logo {
@@ -47,6 +47,11 @@ nav {
   text-decoration: none;
   color: #fff;
   font-size: 18px;
+  transition: 0.5s;
+}
+
+.nav-links a:hover {
+  color: #4bb7ff;
 }
 
 .container {
@@ -60,47 +65,80 @@ nav {
   height: 300px;
   border-radius: 35px;
   box-shadow:
-    rgba(0, 0, 0, 0.19) 0px 10px 20px,
-    rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    #3e8cbf30 0px 10px 20px,
+    #3e8cbf3b 0px 6px 6px;
 }
 
-.text{
-  border: 2px solid black;
+.text {
   height: 130px;
   width: 100%;
-  padding: 10px 0;
 }
 
-.items{
-  border: 2px solid red;
-  height: 130px;
+.text h2 {
+  font-size: 70px;
+  color: #3e8cbf;
+  font-weight: 600;
+}
+
+.text p {
+  font-size: 30px;
+  /* line-height: 3px; */
+}
+
+.items {
+  border: 1px solid #a9a9a9;
+  height: 100px;
   display: flex;
   justify-content: space-around;
   align-items: center;
   border-radius: 80px;
+  margin: 50px 0;
 }
 
-.ele{
-  height: 90px;
+.ele {
+  height: 40px;
   width: 20%;
   display: flex;
   align-items: center;
   flex-grow: 1;
-  gap: 30px;
+  gap: 25px;
+  border-left: 1px solid #a9a9a9;
 }
 
-.ele i{
+.bar {
+  border-left: none;
+}
+
+.ele i {
   font-size: 40px;
+  color: #a9a9a9;
 }
 
+.ele div h2 {
+  font-size: 20px;
+  font-weight: 600;
+}
 
-.main{
+.ele div p {
+  color: #8c8c8c;
+}
+
+#search {
+  color: #fff;
+  font-size: 35px;
+  height: 60px;
+  width: 60px;
+  background-color: #3e8cbf;
+  border-radius: 50%;
+  padding: 11px 0;
+}
+
+.main {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 150px;
+  margin: 250px;
 }
-
 
 /* .container h4{
   color: #3E8CBF;
