@@ -76,7 +76,7 @@ nav {
 
 .text h2 {
   font-size: 70px;
-  color: #3e8cbf;
+  color: #008EC4;
   font-weight: 600;
 }
 
@@ -128,7 +128,7 @@ nav {
   font-size: 35px;
   height: 60px;
   width: 60px;
-  background-color: #3e8cbf;
+  background-color: #008EC4;
   border-radius: 50%;
   padding: 11px 0;
 }
@@ -138,15 +138,12 @@ nav {
   margin: auto;
   text-align: center;
   padding: 190px 0 60px 0;
+  font-size: 55px;
 
   /* display: flex;
   justify-content: center;
   align-items: center;
   margin: 250px 0px 80px 0px; */
-}
-
-.main h3{
-  font-size: 55px;
 }
 
 .feature {
@@ -156,13 +153,13 @@ nav {
   text-align: center;
 }
 
-/* .row{
+.row {
   margin-top: 5px;
   display: flex;
   justify-content: space-between;
 }
 
-.element{
+.element {
   flex-basis: 31%;
   border-radius: 10px;
   width: 80%;
@@ -170,9 +167,53 @@ nav {
   padding: 40px 10px;
 }
 
-.element i{
+.element i {
   margin-bottom: 10%;
-} */
+  background-color: #eef9fe;
+  height: 75px;
+  width: 75px;
+  font-size: 35px;
+  border-radius: 10px;
+}
+
+.element .fa-solid {
+  padding: 20px;
+  color: #008EC4;
+}
+
+.element h3 {
+  font-size: 23px;
+  margin-bottom: 12px;
+  text-align: center;
+}
+
+.element p {
+  text-align: center;
+}
+
+.main-1 {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  padding: 19px 0px 10px;
+  font-size: 55px;
+  margin: 0 auto;
+}
+
+.partners{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.svg-icon{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+
 
 /* .element{
   display: flex;
