@@ -134,11 +134,55 @@ nav {
 }
 
 .main {
-  display: flex;
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  padding: 190px 0 60px 0;
+
+  /* display: flex;
   justify-content: center;
   align-items: center;
-  margin: 250px;
+  margin: 250px 0px 80px 0px; */
 }
+
+.main h3{
+  font-size: 55px;
+}
+
+.feature {
+  margin: 0 auto;
+  height: 400px;
+  width: 80%;
+  text-align: center;
+}
+
+/* .row{
+  margin-top: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.element{
+  flex-basis: 31%;
+  border-radius: 10px;
+  width: 80%;
+  height: 200px;
+  padding: 40px 10px;
+}
+
+.element i{
+  margin-bottom: 10%;
+} */
+
+/* .element{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 250px;
+  width: 60%;
+  border: 1px solid #000;
+} */
 
 /* .container h4{
   color: #3E8CBF;
