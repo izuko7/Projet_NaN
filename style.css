@@ -270,7 +270,7 @@ nav {
 }
 
 .btn1 {
-  margin: auto;
+  margin: 30px auto;
   display: flex;
   justify-content: center;
   text-align: center;
@@ -278,13 +278,11 @@ nav {
   font-size: 20px;
   text-decoration: none;
   color: #000;
-      border-radius: 35px;
-      border: 1px solid;
-    width: 15%;
-    height: 40px;
+  border-radius: 35px;
+  border: 1px solid;
+  width: 168px;
+  height: 48px;
 }
-
-
 
 
 /* .element{
