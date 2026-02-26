@@ -265,24 +265,35 @@ nav {
 
 .info span {
   font-size: 17px;
-  font-weight: 700;
+  font-weight: 500;
   padding: 5px 0;
 }
 
+.elemnt3 {
+  color: #0e0d0da6;
+  font-size: 14px;
+}
+
 .btn1 {
-  margin: 30px auto;
   display: flex;
-  justify-content: center;
-  text-align: center;
-  padding: 4px 0 0 0;
-  font-size: 20px;
-  text-decoration: none;
-  color: #000;
-  border-radius: 35px;
-  border: 1px solid;
+  align-items: center;        /* centre verticalement */
+  justify-content: center;    /* centre horizontalement le texte */
+  gap: 8px;                   /* espace entre "See all" et la flèche */
+  margin: 30px auto;          /* centre le bouton dans la page */
   width: 168px;
   height: 48px;
+  text-decoration: none;
+  border-radius: 35px;
+  border: 1px solid #a9a9a985;
 }
+
+.btn1 a{
+  text-decoration: none;
+  color: #000;
+  font-size: 16px;
+  font-weight: 600;
+}
+
 
 
 /* .element{
