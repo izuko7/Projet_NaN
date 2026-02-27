@@ -61,7 +61,7 @@ nav {
   left: 50%;
   transform: translateX(-50%);
   background-color: #fff;
-  width: 90%;
+  width: 78%;
   height: 300px;
   border-radius: 35px;
   box-shadow:
@@ -97,11 +97,11 @@ nav {
 
 .ele {
   height: 40px;
-  width: 20%;
+  width: 25%;
   display: flex;
   align-items: center;
   flex-grow: 1;
-  gap: 25px;
+  gap: 55px;
   border-left: 1px solid #a9a9a9;
 }
 
@@ -276,10 +276,10 @@ nav {
 
 .btn1 {
   display: flex;
-  align-items: center;        /* centre verticalement */
-  justify-content: center;    /* centre horizontalement le texte */
-  gap: 8px;                   /* espace entre "See all" et la flèche */
-  margin: 30px auto;          /* centre le bouton dans la page */
+  align-items: center; /* centre verticalement */
+  justify-content: center; /* centre horizontalement le texte */
+  gap: 8px; /* espace entre "See all" et la flèche */
+  margin: 30px auto; /* centre le bouton dans la page */
   width: 168px;
   height: 48px;
   text-decoration: none;
@@ -287,48 +287,51 @@ nav {
   border: 1px solid #a9a9a985;
 }
 
-.btn1 a{
+.btn1 a {
   text-decoration: none;
   color: #000;
   font-size: 16px;
   font-weight: 600;
 }
 
-.hero1{
+.hero1 {
   background-image: url(ressources/Images/image\ 13.png);
   background-position: center;
   background-size: cover;
-  padding: 40px 60px;
+  padding: 65px 155px;
   color: #fff;
+  height: 850px;
 }
 
-.hero1 h1{
-  font-size: 80px;
+.hero1 h1 {
+  font-size: 100px;
   font-weight: 900;
-  margin: 0px ;
-  padding-top: 50px;
+  margin: 0px;
+  padding-top: 80px;
 }
 
-.hero1 hr{
-  border: 1px solid #fff;
-}
-
-.hero-bottom{
+.hero-bottom {
   display: flex;
   justify-content: space-between;
   align-items: center;
   gap: 15px;
+  margin: 24px 0;
 }
 
-.left{
+hr {
+  margin: 55px auto;
+}
+
+.left {
   max-width: 400px;
+  margin-bottom: 100px;
 }
 
-.left p{
-  margin-bottom: 30px;
+.left p {
+  margin-bottom: 85px;
 }
-.btn2{
-    background: white;
+.btn2 {
+  background: white;
   color: black;
   text-decoration: none;
   padding: 12px 28px;
@@ -336,61 +339,71 @@ nav {
   font-size: 16px;
 }
 
-.right{
+.right {
   display: flex;
-  gap: 20px;
+  gap: 45px;
 }
 
 .dstination img {
-  width: 180px;
-  height: 290px;
+  width: 100%;
+  height: 370px;
   object-fit: cover;
-  border-radius: 20px;
+  border-radius: 45px;
   display: block;
-  padding: 30px 0;
+  padding: 10px 0;
 }
 
-.destination span {
-  display: block;
+.dstination span {
+  display: inline;
+  font-size: 20px;
   margin-top: 8px;
   font-weight: 600;
 }
 
-.news{
-  padding: 40px 60px;
+.arrows .un {
+  font-size: 40px;
+  border: 1px solid #a9a9a9;
+  border-radius: 15px;
+  display: inline-block;
+  width: 55px;
+  height: 60px;
+  color: #414c5b;
 }
 
-.news-header {
+.news {
+  margin: 40px 0px 0px 0px;
   display: flex;
-  justify-content: space-between;
   align-items: center;
-  
+  justify-content: space-around;
+  font-size: 45px;
+  gap: 55px;
 }
 
-.arrows {
-  display: flex;
-  justify-content: right;
-  align-items: center;
-  margin-bottom: 30px;
+.news h2 {
+  font-weight: 600;
 }
 
 /* Grille des 3 cartes */
 .news-grid {
   display: flex;
+  align-items: center;
+  justify-content: center;
   gap: 24px;
+  margin: 85px auto;
+  width: 68%;
 }
 
 /* Carte */
 .news-card {
   flex: 1;
   border-radius: 16px;
-  box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
   overflow: hidden;
 }
 
 .news-card img {
   width: 100%;
-  height: 220px;
+  height: 50%;
   object-fit: cover;
 }
 
