@@ -576,3 +576,57 @@ hr {
 .dots span.active {
   background: white;
 }
+
+/* subscribe */
+.subscribe{
+  display: flex;
+  align-items: center;
+  background: #f0f0f0;
+  border-radius: 20px;
+  overflow: hidden;
+  margin: 40px 60px;
+}
+
+.subscribe img {
+  width: 400px;
+  height: 280px;
+  object-fit: cover;
+  border-radius: 16px;
+}
+
+.subscribe-right {
+  flex: 1;
+  padding: 40px;
+  text-align: center;
+}
+
+.subscribe-right h2 {
+  font-size: 24px;
+  margin-bottom: 24px;
+}
+
+.input-row {
+  display: flex;
+  background: white;
+  border-radius: 35px;
+  padding: 6px;
+}
+
+.input-row input {
+  flex: 1;
+  border: none;
+  outline: none;
+  padding: 10px 16px;
+  font-size: 15px;
+  background: transparent;
+}
+
+.input-row button {
+  background: #1a8a8a;
+  color: white;
+  border: none;
+  border-radius: 35px;
+  padding: 12px 24px;
+  font-size: 15px;
+  cursor: pointer;
+}
